@@ -57,3 +57,4 @@ RUN \
  rm -rf \
         /tmp/*
 
+ENTRYPOINT [ "/init" ]
